@@ -27,11 +27,7 @@ By separating the whitelist logic into its own contract, developers can **reuse 
 - Include event logging for transparency.
 
 ## 5. Contract Address
-Deployed contract address (example):
-```<img width="1893" height="907" alt="image" src="https://github.com/user-attachments/assets/57297a36-b614-458e-ba6e-d23be08310e9" />
-
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/8485aa10-45e2-4228-b861-2ae70431e3e2" />
-
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/3a9b5dda-f6fd-439f-a486-ac09111a0fa7" />
 
 ST2B3X5EPB86NTK8WJTFVK6Z41VTVCXQ0KKNBG4A3.Whitelist-Manager
 
