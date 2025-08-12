@@ -74,9 +74,10 @@ By separating the whitelist logic into its own contract, developers can **reuse 
 
 ## 5. Contract Address
 Deployed contract address (example):
-```
+```<img width="1893" height="907" alt="image" src="https://github.com/user-attachments/assets/57297a36-b614-458e-ba6e-d23be08310e9" />
 
-ST1234EXAMPLEADDRESS.WHITELIST-MANAGER
+
+ST2B3X5EPB86NTK8WJTFVK6Z41VTVCXQ0KKNBG4A3.Whitelist-Manager
 
 ```
 ```
