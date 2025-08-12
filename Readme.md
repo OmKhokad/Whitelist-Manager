@@ -1,22 +1,3 @@
-Got it ✅
-I’ll prepare a **Clarity smart contract** for a **Whitelist Manager** with only **two functions**, plus a **README.md** containing the sections you mentioned.
-
----
-
-## **Clarity Contract – Whitelist Manager**
-
-This will have:
-
-1. **add-to-whitelist** – Only contract owner can add an address.
-2. **is-whitelisted** – Anyone can check if an address is whitelisted.
-
-
-
-;; Function 2: Check if an address is whitelisted
-(define-read-only (is-whitelisted (user principal))
-  (ok (default-to false (map-get? whitelist user)))
-)
-```
 
 ---
 
@@ -56,3 +37,5 @@ Deployed contract address (example):
 
 
 ST2B3X5EPB86NTK8WJTFVK6Z41VTVCXQ0KKNBG4A3.Whitelist-Manager
+
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/8e0791ef-25d2-4c4f-af0a-29ee08bff41d" />
