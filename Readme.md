@@ -30,7 +30,8 @@ By separating the whitelist logic into its own contract, developers can **reuse 
 Deployed contract address (example):
 ```<img width="1893" height="907" alt="image" src="https://github.com/user-attachments/assets/57297a36-b614-458e-ba6e-d23be08310e9" />
 
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/8485aa10-45e2-4228-b861-2ae70431e3e2" />
+
 
 ST2B3X5EPB86NTK8WJTFVK6Z41VTVCXQ0KKNBG4A3.Whitelist-Manager
 
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/8e0791ef-25d2-4c4f-af0a-29ee08bff41d" />
