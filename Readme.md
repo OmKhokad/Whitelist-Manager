@@ -1,9 +1,4 @@
 
----
-
-## **README.md**
-
-```markdown
 # Whitelist Manager
 
 ## 1. Project Title
