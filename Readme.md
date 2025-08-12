@@ -10,29 +10,7 @@ This will have:
 1. **add-to-whitelist** – Only contract owner can add an address.
 2. **is-whitelisted** – Anyone can check if an address is whitelisted.
 
-```clarity
-;; Whitelist Manager Contract
-;; A simple contract to manage and verify a list of approved addresses.
 
-;; Owner constant
-(define-constant contract-owner tx-sender)
-
-;; Error constants
-(define-constant err-owner-only (err u100))
-(define-constant err-already-whitelisted (err u101))
-
-;; Whitelist storage (principal → bool)
-(define-map whitelist principal bool)
-
-;; Function 1: Add to whitelist (only owner)
-(define-public (add-to-whitelist (user principal))
-  (begin
-    (asserts! (is-eq tx-sender contract-owner) err-owner-only)
-    (asserts! (is-none (map-get? whitelist user)) err-already-whitelisted)
-    (map-set whitelist user true)
-    (ok true)
-  )
-)
 
 ;; Function 2: Check if an address is whitelisted
 (define-read-only (is-whitelisted (user principal))
@@ -78,12 +56,3 @@ Deployed contract address (example):
 
 
 ST2B3X5EPB86NTK8WJTFVK6Z41VTVCXQ0KKNBG4A3.Whitelist-Manager
-
-```
-```
-
----
-
-If you want, I can also **add a third function** for **removing from the whitelist** so that the owner can manage it dynamically — but since you said **only two functions**, I kept it minimal.
-
-Do you want me to also **add deployment instructions** in the README so it’s ready for GitHub? That would make it a complete project.
